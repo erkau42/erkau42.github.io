@@ -11,6 +11,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="main-text-color">
@@ -28,7 +33,7 @@
     </div>
     <!-- Replace the # inside of the href="#" with your links. -->
     <div class="links-container">
-      <div class="button toggle">Blog post</div>
+      <div class="button toggle"><i class="fa-brands fa-medium"></i> Blog post</div>
       <div class="slidedown">
         <div class="description">
           <h2>I misunderstood LeetCode: Learn from my experience</h2>
@@ -37,20 +42,24 @@
         </div>
       </div>
 
-      <div class="button toggle">Video</div>
+      <div class="button toggle"><i class="fa-brands fa-youtube"></i> Video</div>
       <div class="slidedown">
         <div class="description">
           <h2>Regarding Urban "Planning"</h2>
           <p>A somewhat sarcastic public service announcement criticizing the design of urban and suburban spaces within the United States.</p>
+          <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/6y-uflTL7BY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </div>
           <a href="https://www.youtube.com/watch?v=6y-uflTL7BY" class="external-link" target="_blank">Watch</a>
         </div>
       </div>
 
-      <div class="button toggle">Podcast</div>
+      <div class="button toggle"><i class="fa-brands fa-soundcloud"></i> Podcast</div>
       <div class="slidedown">
         <div class="description">
           <h2>The Willy Wonka event disaster</h2>
           <p>We investigate a supposedly magical Willy Wonka experience that didn't live up to the promises of its AI-generated advertisements.</p>
+          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1790269507&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/eric-machine" title="Eric" target="_blank" style="color: #cccccc; text-decoration: none;">Eric</a> · <a href="https://soundcloud.com/eric-machine/willy-wonka-event-disaster" title="The Willy Wonka disaster: How a failed event illustrates the future of AI-driven advertising" target="_blank" style="color: #cccccc; text-decoration: none;">The Willy Wonka disaster: How a failed event illustrates the future of AI-driven advertising</a></div>
           <a href="https://soundcloud.com/eric-machine/willy-wonka-event-disaster" class="external-link" target="_blank">Listen</a>
         </div>
       </div>
@@ -62,12 +71,13 @@
     </div>
 
     <div class="links-container">
-      <a href="https://www.linkedin.com/in/eric-kauppi/" class="button" target="_blank">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/eric-kauppi/" class="button" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
     </div>
 
   </div>
   <div class="footer">
-    <p>© Eric Kauppi, 2024. Based on a design by <a
+    <p>Website and images © Eric Kauppi, 2024.</p>
+    <p>Based on a design by <a
         href="https://www.w3schools.com/howto/howto_website_create_linktree.asp" target="_blank">w3schools</a>.
     </p>
   </div>
